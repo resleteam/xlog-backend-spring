@@ -16,7 +16,7 @@ public class RegistrationController {
         boolean isRegistered = registerUser(request);
 
         if (isRegistered) {
-            return ResponseEntity.ok("Користувач успішно зареєстрований");
+            return ResponseEntity.ok("Користувач успішно зареєстрований!");
         } else {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Помилка при реєстрації");
         }
