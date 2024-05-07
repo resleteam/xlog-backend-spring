@@ -30,7 +30,7 @@ public class EmailSender {
 
             Transport.send(message);
 
-            System.out.println("Email sent successfully!");
+            System.out.println("Email sent successfully!!!");
 
         } catch (MessagingException e) {
             throw new RuntimeException(e);
