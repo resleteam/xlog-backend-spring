@@ -2,9 +2,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class RegistrationController {
@@ -20,7 +17,7 @@ public class RegistrationController {
         boolean isRegistered = registerUser(request);
 
         if (isRegistered) {
-            return ResponseEntity.ok("Користувач успішно зареєстрований");
+            return ResponseEntity.ok("Користувач успішно зареєстрований!");
         } else {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Помилка при реєстрації");
         }
