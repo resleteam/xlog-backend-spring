@@ -14,7 +14,7 @@ public class PingController {
             return pingService.ping();
         } catch (Exception e){
             e.printStackTrace();
-            return ResponseEntity<>().httpError();
+            return "Hello world";
         }
     }
     @GetMapping("/ping")

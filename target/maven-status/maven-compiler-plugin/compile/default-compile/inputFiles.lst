@@ -1,0 +1,10 @@
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/controllers/PostsController.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/Data Transfer Object/RegistrationRequest.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/controllers/RegistrationController.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/services/EmailSenderService.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/services/PingService.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/EmailSender/gmail-confirm/chek-gmail.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/EmailSender/javamail.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/models/Post.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/XlogBackendSpringApplication.java
+/home/runner/xlog-backend-spring/src/main/java/com/resleteam/xlogbackendspring/controllers/PingController.java
